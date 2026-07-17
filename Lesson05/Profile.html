@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 10px solid black;
+            margin: 50px;
+            padding: 40px;
+            border-radius: 999px;
+            background: url(https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png);
+            background-position: 50%;
+        }
+        .box1{
+            background-color: blue;
+        }
+        p{
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        h2{
+            color: Blue;
+            font-size: 24px;
+        }
+        a{
+            display: inline-block;
+            text-decoration: none;
+            border: 2px solid #007bff;
+            padding: 8px 16px;
+            border-radius: 999px;
+            font-weight: 700;
+            color: #007bff;
+            margin-top:26px;
+            transition: ease 0.25s;
+        }
+        a:hover{
+            color: #007bff #00FF00;
+            background-color: #000;
+        }
+            #notic{
+                color: red;
+            }
+            .text{
+                color: brown;
+            }
+            .des{
+                font-size: 30px;
+            }
+            span{
+                color: #723EC3;
+            }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box box1"></div>
+    <h2>Ho va ten: Dao Minh Tuan</h2>
+    <p style="color: darkblue">Nghe nghiep: Sinh vien</p>
+    <p>Gioi thieu:</p>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <a href="https://www.youtube.com/" target="_blank">Lien he</a>
+</body>
+</html>
+
+<!--Bài tập: Trang Profile cá nhân
+Yêu cầu
+Tạo một trang web profile cá nhân đơn giản gồm các thành phần sau:
+
+Ảnh đại diện (avatar) dạng hình tròn.
+Tên hiển thị nổi bật.
+Nghề nghiệp / chức danh.
+Đoạn giới thiệu ngắn (2-3 câu).
+Danh sách kỹ năng (ít nhất 3 mục).
+Một nút "Liên hệ" có hiệu ứng khi rê chuột (hover).
+
+Toàn bộ nội dung nằm trong một khối "card" duy nhất, căn giữa trang, có viền và bo góc.
+Yêu cầu kỹ thuật (bắt buộc dùng)
+Kiến thứcÁp dụng ở đâuSelector (class, id)Chọn từng phần tử để stylepaddingTạo khoảng đệm bên trong cardmarginCăn giữa card, tạo khoảng cách giữa các phần tửborderViền quanh cardborder-radiusBo góc card, bo tròn avatar (50%)background-colorNền card, nền từng mục kỹ năng:hoverĐổi màu nút "Liên hệ" khi rê chuột
+Hướng dẫn từng bước
+Bước 1 — Viết khung HTML. Tạo các thẻ: div bọc ngoài (card), img cho avatar, h1/h2 cho tên, p cho nghề nghiệp và giới thiệu, ul/li cho kỹ năng, a cho nút liên hệ. Gắn class cho từng phần tử để dễ chọn trong CSS.
+Bước 2 — Style khối card. Đặt width cố định (ví dụ 350px), dùng margin: 50px auto; để căn giữa theo chiều ngang, thêm padding, border, border-radius, background-color.
+Bước 3 — Style avatar. Đặt width và height bằng nhau (ví dụ 120px), thêm border-radius: 50% để thành hình tròn, có thể thêm border quanh ảnh cho đẹp.
+Bước 4 — Style tên và nghề nghiệp. Tăng font-size cho tên, dùng color khác cho nghề nghiệp để phân biệt cấp bậc thông tin.
+Bước 5 — Style danh sách kỹ năng. Bỏ dấu chấm mặc định bằng list-style: none;, cho mỗi li có background-color, padding, border-radius nhỏ, margin để các mục không dính nhau. Có thể dùng display: inline-block để các kỹ năng nằm ngang hàng.
+Bước 6 — Style nút Liên hệ. Cho a có padding, background-color, color chữ trắng, border-radius, text-decoration: none. Thêm .btn:hover để đổi background-color khi rê chuột.
+Bước 7 — Kiểm tra lại. Mở file bằng trình duyệt, kiểm tra: card có căn giữa không, avatar có tròn đều không, khoảng cách giữa các phần tử có hợp lý không, nút hover có đổi màu không.
+Tiêu chí hoàn thành
+Trang chạy được trên trình duyệt, đủ 6 thành phần yêu cầu, dùng đủ 6 thuộc tính kỹ thuật trong bảng, không có phần tử nào bị dính sát hoặc tràn ra ngoài card.
+-->
